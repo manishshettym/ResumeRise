@@ -10,7 +10,7 @@
    The tool automatically parses the documents and allows for us to create annotations of important entities we are interested    in and generates json formatted training data with each line containing the text corpus along with the annotations.
 
    A snapshot of the dataset can be seen below :
-   ![alt text](https://github.com/ManishShettyM/ResumeRise/Utils/dataturks.png)
+   ![alt text](ResumeRise/Utils/dataturks.png)
 
 
 
