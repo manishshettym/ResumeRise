@@ -5,8 +5,8 @@
   
   ## Git commands:
   1. git init
-  2. git add origin https://github.com/ManishShettyM/ResumeRise.git
-  3.DO NOT forget to pull :  git pull origin master
+  2. git remote add origin https://github.com/ManishShettyM/ResumeRise.git 
+  3. DO NOT forget to pull :  git pull origin master
   4. STEPS TO PUSH :
       * git add --all
       * git commit -m "<message>"
