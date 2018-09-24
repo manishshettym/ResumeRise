@@ -1,6 +1,17 @@
 # ResumeRise
   A Resume parser and summarizer tool to classify resumes and rank the resumes according to the requirements of the user.
   
+  
+  
+  ## Git commands:
+  1. git init
+  2. git add origin https://github.com/ManishShettyM/ResumeRise.git
+  3.DO NOT forget to pull :  git pull origin master
+  4. STEPS TO PUSH :
+      a) git add --all
+      b) git commit -m "<message>"
+      c) git push origin master
+  
   ## Pre-Processing
   The DataTurks tool has been used to manually annotate 220 resumes from www.indeed.com.
   
