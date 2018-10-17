@@ -79,7 +79,7 @@ def main():
 		spacy_pipeline.add_pipe(ner,last=True)
 
 
-	for item in train_data: #in tuple
+	for _, item in train_data: #in tuple
 		for en in item.get('entities'): #in entities
 			print(en)
 
