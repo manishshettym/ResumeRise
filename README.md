@@ -13,16 +13,10 @@
       * git push origin master
   
   ## Pre-Processing
-  The DataTurks tool has been used to manually annotate 220 resumes from www.indeed.com.
+  Cleaning the dataset and creating converters for any format of a resume to be parsed
   
   1.Dataset :
-    The first task at hand of course is to create manually annotated training data to train the model. For this purpose, 220       resumes were downloaded from an online jobs platform. These documents were uploaded to our online annotation tool and           manually annotated.
-
-   The tool automatically parses the documents and allows for us to create annotations of important entities we are interested    in and generates json formatted training data with each line containing the text corpus along with the annotations.
-
-   A snapshot of the dataset can be seen below :
-   ![alt text](https://github.com/ManishShettyM/ResumeRise/blob/master/Utils/dataturks.png)
-
+    The [dataset](https://www.kaggle.com/iammhaseeb/resumes-dataset-with-labels) consists of 1000 labelled resumes (labelled according to the primary category/class that a particular resume belongs to) in a csv format.<br>We will be using this csv formatted resume dataset to train our model for classification. Our model should then be able to work on any unseen resume.
 
 
 
