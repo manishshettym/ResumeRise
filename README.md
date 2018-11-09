@@ -16,7 +16,9 @@
   Cleaning the dataset and creating converters for any format of a resume to be parsed
   
   1.Dataset :
-    Using a csv formatted 1000 resume dataset to train. The model should then be tested on any format for any unseen resume.
+    Link to the dataset: https://www.kaggle.com/iammhaseeb/resumes-dataset-with-labels
+    The dataset consists of 1000 labelled resumes (labelled according to the primary category/class that a particular resume belongs to)      in a csv format.
+    We will be using this csv formatted resume dataset to train our model for classification. Our model should then be able to work on any unseen resume.
 
 
 
