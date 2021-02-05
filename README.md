@@ -1,9 +1,6 @@
 # ResumeRise
 A Resume parser and summarizer tool to classify resumes and rank the resumes according to the requirements of the user.
-  
-## Pre-Processing
-Cleaning the dataset and creating converters for any format of a resume to be parsed
-  
+
 ## Dataset
 The [dataset](https://www.kaggle.com/iammhaseeb/resumes-dataset-with-labels) consists of 1000 labelled resumes (labelled according to the primary category/class that a particular resume belongs to) in a csv format.<br>We will be using this csv formatted resume dataset to train our model for classification. Our model should then be able to work on any unseen resume.
 
@@ -14,6 +11,4 @@ The [dataset](https://www.kaggle.com/iammhaseeb/resumes-dataset-with-labels) con
 * **Utils/Modelling.ipynb** :main file + representational changes + training + comparison of models + testing
 * **Utils/naive_bayes.ipynb** : multinomial naive bayes implementation
 * **Utils/svm.ipynb** : svm implementation 
-
-## Clean dataset: 
-* **Utils/clean_data1.csv**
+* **Utils/clean_data1.csv**: cleaned resume dataset
